@@ -39,11 +39,16 @@
                 </td>
                 <td data-th="Price">${{ cart_item.product.price|floatformat }}</td>
                 <td data-th="Quantity">
-                  <form action="{% url "cart:update" cart_item.id %}" method="post">
+                  <form action="{% url 'cart:update' cart_item.id %}" method="post">
                     {% csrf_token %}
-                    <input class="cart_item_quantity" type="number" name="cart_item_quantity" min="1"
+                    
+                    <label for="quantity_{{ cart_item.id }}" class="sr-only">Quantity</label>
+                    
+                    <input id="quantity_{{ cart_item.id }}" class="cart_item_quantity" type="number" name="cart_item_quantity" min="1"
                            value="{{ cart_item.quantity }}">
-                    <button type="submit" class="btn btn-info btn-sm"><i class="fa fa-refresh"></i>
+                           
+                    <button type="submit" class="btn btn-info btn-sm">
+                      <i class="fa fa-refresh"></i>
                     </button>
                   </form>
                 </td>
