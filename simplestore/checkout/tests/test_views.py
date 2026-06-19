@@ -1,4 +1,5 @@
 import datetime
+import uuid
 
 from django.contrib.auth.models import AnonymousUser
 from django.test import TestCase
@@ -79,7 +80,9 @@ class CheckoutTests(TestCase):
             is_admin=False,
             is_staff=False,
         )
-        user.set_password(raw_password='helloworld') # NOSONAR
+
+        senha_aleatoria = str(uuid.uuid4()) 
+        user.set_password(raw_password=senha_aleatoria)
         user.save()
 
         return user
