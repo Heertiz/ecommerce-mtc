@@ -28,7 +28,7 @@ COPY requirements.txt /app/
 RUN pip install "pip<21.0" "setuptools<45.0.0" "wheel<0.37.0" "Cython<3.0" \
     && pip install -r requirements.txt
 
-COPY . /app/ # NOSONAR
+COPY . /app/
 
 RUN groupadd -r appuser && useradd -r -g appuser appuser
 
