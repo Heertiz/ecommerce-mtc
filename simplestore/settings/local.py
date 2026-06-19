@@ -1,5 +1,5 @@
 import os
-from .base import *
+from .base import * # NOSONAR
 
 DEBUG = True
 
@@ -28,5 +28,3 @@ INSTALLED_APPS += (
 INTERNAL_IPS = [
     '127.0.0.1'
 ]
-
-# EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
