@@ -1,4 +1,4 @@
-from .base import *
+from .base import * # NOSONAR
 
 import dj_database_url
 
