@@ -46,6 +46,6 @@ class Migration(migrations.Migration):
         ),
         migrations.AlterUniqueTogether(
             name='cart',
-            unique_together=set([('user', 'session_key')]),
+            unique_together={('user', 'session_key')},
         ),
     ]
