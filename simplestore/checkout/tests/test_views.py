@@ -79,7 +79,7 @@ class CheckoutTests(TestCase):
             is_admin=False,
             is_staff=False,
         )
-        user.set_password(raw_password='helloworld')
+        user.set_password(raw_password='helloworld') # NOSONAR
         user.save()
 
         return user
