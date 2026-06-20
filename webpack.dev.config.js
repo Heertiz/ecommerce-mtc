@@ -48,7 +48,6 @@ const devConfig = {
   ],
 };
 
-const config = Object.assign({}, baseConfig.config, devConfig);
 const config = { ...baseConfig.config, ...devConfig };
 
 module.exports = config;
