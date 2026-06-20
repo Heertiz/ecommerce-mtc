@@ -6,8 +6,8 @@ import uuid
 from django.db import migrations
 
 def gen_uuid(apps, schema_editor):
-    Profile = apps.get_model('profiles', 'Profile')
-    for row in Profile.objects.all():
+    profile_model = apps.get_model('profiles', 'Profile')
+    for row in profile_model.objects.all():
         row.uuid = uuid.uuid4()
         row.save(update_fields=['uuid'])
 
