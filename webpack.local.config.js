@@ -1,5 +1,5 @@
 const webpack = require('webpack');
-const path = require('path');
+const path = require('node:path');
 const BundleTracker = require('webpack-bundle-tracker');
 const BrowserSyncPlugin = require('browser-sync-webpack-plugin');
 
@@ -67,6 +67,6 @@ const localConfig = {
 
 };
 
-const config = Object.assign({}, baseConfig.config, localConfig);
+const config = { ...baseConfig.config, ...localConfig };
 
 module.exports = config;
