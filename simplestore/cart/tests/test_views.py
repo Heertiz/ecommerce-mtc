@@ -230,7 +230,7 @@ class CartViewsTests(TestCase):
         response.session = session
         response.user = test_user
 
-        cart, created = Cart.objects.get_or_create(
+        cart, _ = Cart.objects.get_or_create(
             session_key=response.session['user_cart'], user=response.user)
         cart.save()
 
