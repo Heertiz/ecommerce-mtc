@@ -188,10 +188,10 @@ input[type="number"]::-webkit-inner-spin-button, input[type="number"]::-webkit-o
 }
 
 input[type="search"] {
-    -webkit-appearance: textfield;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
+    -webkit-appearance: none
 }
 
 input[type="search"]::-webkit-search-cancel-button, input[type="search"]::-webkit-search-decoration {
@@ -1877,10 +1877,6 @@ output {
 
 textarea.form-control {
     height: auto
-}
-
-input[type="search"] {
-    -webkit-appearance: none
 }
 
 @media screen and (-webkit-min-device-pixel-ratio: 0) {
