@@ -2737,7 +2737,8 @@ tbody.collapse.in {
 .dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus {
     text-decoration: none;
     color: #ffffff;
-    background-color: #1a5b99
+    background-color: #1a5b99;
+    background-image: none
 }
 
 .dropdown-menu > .active > a, .dropdown-menu > .active > a:hover, .dropdown-menu > .active > a:focus {
@@ -6143,14 +6144,6 @@ table .success a, .table .success a, table .warning a, .table .warning a, table 
 
 .has-success .form-control, .has-success .form-control:focus, .has-success .input-group-addon {
     border: 1px solid #3fb618
-}
-
-.nav-pills > li > a {
-    border-radius: 0
-}
-
-.dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus {
-    background-image: none
 }
 
 .close {
