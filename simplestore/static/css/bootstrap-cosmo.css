@@ -4297,8 +4297,8 @@ a.thumbnail:hover, a.thumbnail:focus, a.thumbnail.active {
 .alert {
     padding: 15px;
     margin-bottom: 21px;
-    border: 1px solid transparent;
-    border-radius: 0
+    border-radius: 0;
+    border: none;
 }
 
 .alert h4 {
@@ -4307,7 +4307,9 @@ a.thumbnail:hover, a.thumbnail:focus, a.thumbnail.active {
 }
 
 .alert .alert-link {
-    font-weight: bold
+    font-weight: bold;
+    text-decoration: underline;
+    color: #fff
 }
 
 .alert > p, .alert > ul {
