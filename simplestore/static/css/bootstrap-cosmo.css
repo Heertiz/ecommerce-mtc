@@ -3236,7 +3236,9 @@ textarea.input-group-sm > .form-control, textarea.input-group-sm > .input-group-
 
 .nav-tabs.nav-justified > li > a {
     text-align: center;
-    margin-bottom: 5px
+    margin-bottom: 5px;
+    margin-right: 0;
+    border-radius: 0
 }
 
 .nav-tabs.nav-justified > .dropdown .dropdown-menu {
@@ -3253,11 +3255,6 @@ textarea.input-group-sm > .form-control, textarea.input-group-sm > .input-group-
     .nav-tabs.nav-justified > li > a {
         margin-bottom: 0
     }
-}
-
-.nav-tabs.nav-justified > li > a {
-    margin-right: 0;
-    border-radius: 0
 }
 
 .nav-tabs.nav-justified > .active > a, .nav-tabs.nav-justified > .active > a:hover, .nav-tabs.nav-justified > .active > a:focus {
@@ -3289,7 +3286,7 @@ textarea.input-group-sm > .form-control, textarea.input-group-sm > .input-group-
 
 .nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus {
     color: #ffffff;
-    background-color: #2780e3
+    background-color: #1a5b99
 }
 
 .nav-stacked > li {
