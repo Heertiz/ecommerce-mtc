@@ -2561,7 +2561,7 @@ a.btn.disabled, fieldset[disabled] a.btn {
 }
 
 .btn-danger .badge {
-    color: #ff0039;
+    color: #b30028;
     background-color: #ffffff
 }
 
