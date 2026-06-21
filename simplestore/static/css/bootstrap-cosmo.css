@@ -4633,9 +4633,10 @@ a.list-group-item-success .list-group-item-heading, button.list-group-item-succe
     color: inherit
 }
 
-a.list-group-item-success:hover, button.list-group-item-success:hover, a.list-group-item-success:focus, button.list-group-item-success:focus {
-    color: #333333;
-    background-color: #379f15
+a.list-group-item-success:hover, button.list-group-item-success:hover, 
+a.list-group-item-success:focus, button.list-group-item-success:focus {
+    color: #ffffff;
+    background-color: #2b7a10
 }
 
 a.list-group-item-success.active, button.list-group-item-success.active, a.list-group-item-success.active:hover, button.list-group-item-success.active:hover, a.list-group-item-success.active:focus, button.list-group-item-success.active:focus {
@@ -4681,23 +4682,20 @@ a.list-group-item-warning .list-group-item-heading, button.list-group-item-warni
     color: inherit
 }
 
-a.list-group-item-warning:hover, button.list-group-item-warning:hover, 
-a.list-group-item-warning:focus, button.list-group-item-warning:focus {
-    color: #333333;
-    background-color: #fe6600
+a.list-group-item-warning:hover, button.list-group-item-warning:hover, a.list-group-item-warning:focus, button.list-group-item-warning:focus {
+    color: #ffffff;
+    background-color: #993d00
 }
 
-a.list-group-item-warning.active, button.list-group-item-warning.active, 
-a.list-group-item-warning.active:hover, button.list-group-item-warning.active:hover, 
-a.list-group-item-warning.active:focus, button.list-group-item-warning.active:focus {
+a.list-group-item-warning.active, button.list-group-item-warning.active, a.list-group-item-warning.active:hover, button.list-group-item-warning.active:hover, a.list-group-item-warning.active:focus, button.list-group-item-warning.active:focus {
     color: #ffffff;
     background-color: #803300;
     border-color: #732e00
 }
 
 .list-group-item-danger {
-    color: #333333;
-    background-color: #ff0039
+    color: #ffffff;
+    background-color: #b30028
 }
 
 a.list-group-item-danger, button.list-group-item-danger {
