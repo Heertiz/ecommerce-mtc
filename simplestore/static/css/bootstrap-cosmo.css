@@ -127,8 +127,8 @@ pre {
 }
 
 code, kbd, pre, samp {
-    font-family: monospace;
     font-size: 1em;
+    font-family: Menlo, Monaco, Consolas, "Courier New", monospace
 }
 
 button, input, optgroup, select, textarea {
@@ -687,10 +687,6 @@ address {
     margin-bottom: 21px;
     font-style: normal;
     line-height: 1.42857143
-}
-
-code, kbd, pre, samp {
-    font-family: Menlo, Monaco, Consolas, "Courier New", monospace
 }
 
 code {
